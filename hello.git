@@ -1,0 +1,1 @@
+tail -f  /opt/FuseStandalone/"$HOSTNAME"_child*/data/log/fuse.log | egrep 'JMXException|SQLException|SSLException|SocketTimeoutException|SSLHandshakeException|ConnectException|UnknownHostException'
